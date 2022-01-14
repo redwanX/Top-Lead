@@ -248,7 +248,7 @@ Media Queries
     grid-template-columns: repeat(2, 1fr);
   }
   .blogs {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .player {
     display: flex;
@@ -256,6 +256,7 @@ Media Queries
     align-items: center;
   }
   .blog {
+    padding: 2%;
     flex-direction: column;
   }
   .blog .thumbnail img {
